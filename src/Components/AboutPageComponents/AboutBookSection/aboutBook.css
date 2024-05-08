@@ -1,0 +1,42 @@
+.ftco-intro .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .9;
+    background: #222222;
+    z-index: -1;
+}
+
+.ftco-intro .subheading {
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #8dc43f;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.ftco-intro h1, .ftco-intro .h1 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.bookButton{
+
+    background: #8dc43f !important;
+    border: 1px solid #8dc43f !important;
+    color: #fff !important;
+}
+
+@media (max-width:999px) {
+
+    .ftco-intro h1, .ftco-intro .h1{
+
+        font-size: 25px;
+    }
+    
+}

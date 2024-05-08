@@ -1,0 +1,124 @@
+
+.room__pic__item {
+	height: 400px;
+    margin-right: 40px;
+}
+
+.room__text {
+	margin-bottom: 60px;
+}
+
+.room__text.right__text {
+	padding-left: 85px;
+}
+
+.room__text h3 {
+	color: #19191A;
+	font-weight: 500;
+	margin-bottom: 32px;
+}
+
+.room__text h2 {
+	font-size: 48px;
+	color: #c5a880;
+	position: relative;
+	padding-left: 12px;
+	margin-bottom: 20px;
+}
+
+.room__text h2 sup {
+	font-size: 20px;
+	position: absolute;
+	left: 0;
+	top: 15px;
+	color: #1d1c1c;
+}
+
+.room__text h2 span {
+	font-size: 18px;
+	color: #1d1c1c;
+}
+
+.room__text ul {
+	margin-bottom: 30px;
+}
+
+.room__text ul li {
+	list-style: none;
+	font-size: 18px;
+	color: #1d1c1c;
+	line-height: 36px;
+}
+
+.room__text ul li span {
+	display: inline-block;
+	width: 130px;
+}
+
+.room__text a {
+	font-size: 17px;
+	color: #1d1c1c;
+	font-family: "Barlow Condensed", sans-serif;
+	position: relative;
+	padding: 4px 0;
+	display: inline-block;
+	font-weight: 500;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.room__text a:before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2px;
+	width: 100%;
+	background: #E9AD28;
+	content: "";
+}
+
+.pagination__number {
+	text-align: center;
+}
+
+.pagination__number a {
+	font-size: 16px;
+	display: inline-block;
+	padding: 10px 16px 8px;
+	color: #777C81;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+
+.pagination__number a span {
+	font-size: 16px;
+	position: relative;
+	top: 3px;
+	margin-left: 3px;
+}
+
+.pagination__number a:hover {
+	background: #E9AD28;
+	color: #ffffff;
+}
+
+
+@media (max-width:999px) {
+
+	.breadcrumb__text h1{
+
+		font-size: 40px;
+	}
+	
+	.room__pic__item{
+
+		margin-right: 0px;
+	} 
+
+	.room__text{
+
+		margin-left: 10px;
+	}
+}

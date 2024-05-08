@@ -1,0 +1,45 @@
+.hotel-room {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    background: #fff;
+}
+
+.hotel-room .hotel-room-body {
+    padding: 30px;
+}
+
+.hotel-room .heading {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.hotel-room .hotel-room-body .price {
+    color: black;
+    font-weight: 400;
+}
+
+
+.view-detail {
+    background-color: #f4f4f4;
+    color: #000;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 12px 15px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.view-detail:hover {
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    background-color: #8cc43f;
+    text-decoration: none;
+    color: #000;
+  }
+
+

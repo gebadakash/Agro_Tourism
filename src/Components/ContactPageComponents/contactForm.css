@@ -1,0 +1,96 @@
+.contact__widget__item {
+    margin-bottom: 42px;
+}
+
+.contact__widget__item h4 {
+    color: #19191A;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact__widget__item ul li {
+    list-style: none;
+    font-size: 16px;
+    color: #777C81;
+    line-height: 26px;
+}
+
+.contact__widget__time__item ul li span {
+    font-weight: 700;
+    color: #19191A;
+}
+
+.contact__form form input {
+    border: none;
+    border-bottom: 1px solid #E4E4E4 !important;
+    width: 100%;
+    font-size: 16px;
+    color: #777C81;
+    border: none;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.contact__form form textarea {
+    border: none;
+    border-bottom: 1px solid #E4E4E4 !important;
+    width: 100%;
+    font-size: 16px;
+    color: #777C81;
+    border: none;
+    height: 85px;
+    resize: none;
+    margin-bottom: 40px;
+}
+
+.contact__form form button::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: #c5a880;
+    content: "";
+}
+
+.contact__form form button {
+    font-size: 17px;
+    font-weight: 500;
+    display: inline-block;
+    border: none;
+    background: transparent;
+    padding: 2px 0;
+    position: relative;
+}
+
+.contact__form h2 {
+    color: #1d1c1c;
+    font-weight: 500;
+    margin-bottom: 34px;
+}
+
+
+ .btn-get-started {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 15px 32px 15px 32px;
+    border-radius: 30px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+    animation-delay: 0.8s;
+    text-transform: uppercase;
+    border: 2px solid rgb(141, 196, 63);
+    background: rgb(141, 196, 63);
+    text-decoration: none;
+}
+
+.btn-get-started:hover{
+
+    color: black;
+    background: none;
+}

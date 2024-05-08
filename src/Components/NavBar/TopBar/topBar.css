@@ -1,0 +1,68 @@
+@media (max-width: 991px) {
+    .header__top {
+        display: none;
+    }
+  }
+
+  .header__top__widget {
+    padding: 5px 0 5px;
+  }
+  
+  .header__top__widget li {
+    font-size: 15px;
+    color: #19191a;
+    display: inline-block;
+    margin-right: 50px;
+    list-style: none;
+  }
+  
+  .header__top__widget li:last-child {
+    margin-right: 0;
+  }
+  
+  .header__top__widget li .span {
+    color: black;
+    margin-right: 5px;
+  }
+
+  .header__top__widget li .span {
+    color: black;
+    margin-right: 5px;
+  }
+
+  .header__nav__widget a span {
+    font-size: 20px;
+    color: #e9ad28;
+    position: relative;
+    top: 4px;
+  }
+
+  .header__top__right {
+    text-align: right;
+  }
+
+  .header__top__auth {
+    display: inline-block;
+    margin-right: 45px;
+    margin-top: 2px;
+
+}
+
+
+.geek1 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+  color: rgb(212, 9, 9);
+  font-size: larger;
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+
+
+
+  

@@ -1,0 +1,170 @@
+
+@media (min-width: 992px) {
+    .navbar-dark {
+        /* position: absolute; */
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-bottom: 1px solid rgba(256, 256, 256, .1);
+        z-index: 999;
+        
+    }
+
+  } 
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+  /* Ensure smooth transition for the navbar */
+  .navbar.sticky-top {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    font-family: "Montserrat", monospace;
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 20px 5px;
+    color: #010101;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    transition: .5s;
+  }
+  
+  
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: #8dc43f;
+    
+  }
+  
+  
+  .navbar-dark .navbar-brand h1 {
+    color: #FFFFFF;
+  }
+  
+  
+  
+  @media (max-width: 991.98px) {
+    .sticky-top.navbar-dark {
+        position: relative;
+        background: #FFFFFF;
+    }
+    
+  }
+
+  @media (max-width: 999px) {
+    .navbar-dark .navbar-nav .nav-link  {
+      border-bottom: 1px solid #c5c5c5; 
+      padding-bottom: 5px;
+      margin-bottom: 5px; 
+    }
+
+    .navbar-dark .navbar-nav .nav-link.contact-link {
+
+      border-bottom: none;
+    }
+
+
+  }
+
+  .contact-btn{
+
+    border: none;
+    background-color: transparent;
+    color: #000;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .header-cta {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+.header-cta .icon {
+  font-size: 25px;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: rgb(141, 196, 63);
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.header-cta .phone-number span {
+  font-size: 20px;
+  line-height: 20px;
+  display: block;
+  color: #404a3d;
+  font-family: "Prata", serif;
+}
+
+
+@media (max-width:999px) {
+
+  .navbar-brand{
+
+    margin-left: 1rem !important;
+  }
+
+  .header-cta{
+
+    display: inline-flex;
+    margin-left: 15px;
+  }
+  
+}
+
+@media (min-width:992px) and (max-width:1414px) {
+
+  .header-cta{
+
+      margin-left: 0;
+  }
+
+  .navbar-dark .navbar-nav .nav-link{
+    font-size: 12px;
+
+  }
+}
+
+
+@media (max-width:1154px) {
+
+  .navbar-dark .navbar-brand {
+
+  margin-left: 2rem !important;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+  

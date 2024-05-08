@@ -1,0 +1,49 @@
+@media (max-width:999px) {
+
+    .imageContainer{
+
+        height: 345px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+.slick-dots{
+
+    position: static !important;
+}
+
+
+.gallery-wrap {
+    position: relative;
+  }
+  
+  .view-more-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(141, 196, 63);
+    border-color: rgb(141, 196, 63);
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 400;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+  }
+  
+  .gallery-wrap:hover .view-more-btn {
+    opacity: 1; 
+  }
+  
+  .gallery-wrap .view-more-btn:hover{
+
+      color: white;
+  }

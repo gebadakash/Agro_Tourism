@@ -1,0 +1,56 @@
+/* FixedButtons.css */
+.fixed-btn {
+    position: fixed;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 999;
+    border-radius: 50%;
+  }
+  
+  .whatsapp-btn {
+  
+    bottom: 140px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+  
+    background-color: rgb(94, 214, 94); /* Adjust color */
+    color: white;
+  }
+
+  .fixed-btn svg {
+  
+    font-size: 25px;
+  }
+
+
+  .whatsapp-btn:hover {
+    background-color: rgb(28, 74, 28) !important;
+    border: 1px solid #eee;
+    /* Adjust color */
+  }
+  
+  .call-btn {
+  
+    bottom: 75px; /* Adjust as needed */
+    right: 9px; /* Adjust as needed */
+    color: rgb(255, 255, 255);
+    background-color: #ec8b00; /* Adjust color */
+  
+  
+  }
+  
+  .call-btn:hover {
+    color: aliceblue;
+    border: 1px solid #eee;
+    background-color: rgba(16, 31, 88, 0.822); /* Adjust color */
+  }
+
+  .Chat-btn{
+    bottom: 180px;
+    right: -25px;
+    background: transparent;
+    size: 20px;
+
+  }
+  

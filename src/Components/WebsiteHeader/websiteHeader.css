@@ -1,0 +1,29 @@
+.breadcrumb-option {
+    padding: 130px 0;
+}
+
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.breadcrumb__text h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb__links a {
+    font-size: 18px;
+    color: #ffffff;
+    margin-right: 22px;
+    display: inline-block;
+    position: relative;
+}
+
+.breadcrumb__links a:hover {
+
+    color: #8dc43f;
+}

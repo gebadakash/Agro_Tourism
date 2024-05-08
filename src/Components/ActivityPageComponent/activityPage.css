@@ -1,0 +1,20 @@
+.hotel-room {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    background: #fff;
+}
+
+.hotel-room .hotel-room-body {
+    padding: 30px;
+}
+
+.hotel-room .heading {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.hotel-room .hotel-room-body .details {
+  color: gray;
+  font-weight: 400;
+}
