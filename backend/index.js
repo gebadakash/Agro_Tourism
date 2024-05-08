@@ -1,7 +1,7 @@
 const express = require("express");
-const mysql = require('mysql2');
+const { Pool } = require('pg');
 const cors = require('cors');
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 const dotenv = require('dotenv');
 dotenv.config();
@@ -10,48 +10,41 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin:"https://localhost:5173",
+    origin: "http://localhost:5173",
 }));
 
-
-const connection = mysql.createConnection({
-
-    host: process.env.HOST,
-    user: process.env.USER,
-    password: process.env.PASSWORD,
-    database:process.env.DATABASE
+const pool = new Pool({
+    user: process.env.PGUSER,
+    host: process.env.PGHOST,
+    database: process.env.PGDATABASE,
+    password: process.env.PGPASSWORD,
+    port: process.env.PGPORT,
 });
 
-
-
-connection.connect((err) => {
-    if (err) {
-        console.error('Error connecting to MySQL: ' + err.stack);
-        return;
-    }
-    console.log('Connected to MySQL database as id ' + connection.threadId);
+pool.on('error', (err, client) => {
+    console.error('Unexpected error on idle client', err);
+    process.exit(-1);
 });
 
-
-// MySQL Schema
+// PostgreSQL Schema
 const createUserTable = `CREATE TABLE IF NOT EXISTS users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     username VARCHAR(255),
     subject VARCHAR(255),
     message TEXT,
     contact VARCHAR(255)
 )`;
 
-connection.query(createUserTable, (err, results) => {
+pool.query(createUserTable, (err, results) => {
     if (err) throw err;
     console.log("Users table created successfully");
 });
 
 // Endpoint to save user data
 app.post('/save', (req, res) => {
-    const { username, subject,  message, contact, } = req.body;
-    const insertUserQuery = `INSERT INTO users (username, subject, message, contact) VALUES (?, ?, ?, ?)`;
-    connection.query(insertUserQuery, [username, subject,  message, contact,], (err, results) => {
+    const { username, subject, message, contact } = req.body;
+    const insertUserQuery = `INSERT INTO users (username, subject, message, contact) VALUES ($1, $2, $3, $4)`;
+    pool.query(insertUserQuery, [username, subject, message, contact], (err, results) => {
         if (err) {
             console.error('Error saving user data: ' + err);
             res.status(500).json({ error: 'Error saving user data' });
@@ -62,7 +55,6 @@ app.post('/save', (req, res) => {
 });
 
 // Start the server
-
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
