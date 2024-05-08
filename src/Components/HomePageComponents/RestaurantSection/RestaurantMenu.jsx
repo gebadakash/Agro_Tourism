@@ -7,7 +7,7 @@ import menu2 from  "../../../assets/images/nonveg.jpg";
 import menu3 from "../../../assets/images/morningBreakfast.jpg";
 import menu4 from "../../../assets/images/lunch.jpg";
 import menu5 from "../../../assets/images/eveningTea.jpg";
-import menu6 from "../../../assets/images/marathifood.png";
+import menu6 from "../../../assets/images/cofee.png";
 
 const RestaurantMenu = () => {
   const menuItems = [
@@ -38,9 +38,11 @@ const RestaurantMenu = () => {
     },
     {
       id: 6,
-      name: "Ultimate Overload",
+      name: "Coffee",
       image: `${menu6}`
     },
+
+
   ];
 
   return (
