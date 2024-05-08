@@ -67,7 +67,7 @@ const ContactForm = () => {
     const { username, contact, subject, message } = Contact;
   
     try {
-      const result = await axios.post('https://localhost:3001/save', { username, contact, subject, message });
+      const result = await axios.post('https://localhost:3000/save', { username, contact, subject, message });
       console.log(result);
       toast.success("Thanks for choosing us! Our team will contact you soon.");
       setContact({
