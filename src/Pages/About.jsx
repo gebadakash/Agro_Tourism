@@ -5,6 +5,7 @@ const Specialization = React.lazy(()=> import("../Components/AboutPageComponents
 const AboutBookSection = React.lazy(()=> import("../Components/AboutPageComponents/AboutBookSection/AboutBookSection"));
 const AboutSection = React.lazy(()=> import("../Components/AboutPageComponents/About/AboutSection"));
 const RoomSection = React.lazy(()=> import ("../Components/HomePageComponents/RoomSection/RoomSection"));
+const MissonVission = React.lazy(()=> import("../Components/HomePageComponents/MissionAndVission/Cards"));
 
 const About = () => {
 
@@ -19,6 +20,7 @@ const About = () => {
       <AboutSection/>
       <AboutBookSection/>
       <RoomSection/> 
+      <MissonVission/>
       <Specialization/>
     </Suspense>
     </>

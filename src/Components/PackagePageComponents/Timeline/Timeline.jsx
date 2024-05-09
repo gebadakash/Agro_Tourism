@@ -76,31 +76,10 @@ const rightData = [
 
 const Timeline = () => {
 
-  
-  useEffect(() => {
-
-    const handleScrollToTop = () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    };
-
-
-    const navLinks = document.querySelectorAll('.navlink');
-    navLinks.forEach(link => {
-      link.addEventListener('click', handleScrollToTop);
-    });
-
-
-    return () => {
-      navLinks.forEach(link => {
-        link.removeEventListener('click', handleScrollToTop);
-      });
-    };
-  }, []);
-
 
   return (
     <>
-    <section className="history spad mb-5">
+    <section className="history spad">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -147,7 +126,6 @@ const Timeline = () => {
           </div>
         </div>
       </div>
-      <center> <NavLink to="/contact" className="tp-btn-ab navlink">Enquire Now</NavLink></center>
     </section>
     </>
   );

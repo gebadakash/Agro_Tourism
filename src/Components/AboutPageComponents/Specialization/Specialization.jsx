@@ -3,7 +3,7 @@ import aboutImage from "../../../assets/images/AboutUs.png";
 
 const Specialization = () => {
   return (
-    <section className="about spad">
+    <section className="about">
       <div className="container">
         <div className="about__content">
           <div className="row" style={{justifyContent: "space-evenly"}}>

@@ -5,8 +5,31 @@ import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const FooterSection = () => {
+
+  useEffect(() => {
+
+    const handleScrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
+
+    const navLinks = document.querySelectorAll('.navlink');
+    navLinks.forEach(link => {
+      link.addEventListener('click', handleScrollToTop);
+    });
+
+
+    return () => {
+      navLinks.forEach(link => {
+        link.removeEventListener('click', handleScrollToTop);
+      });
+    };
+  }, []);
+
+
   const quickLinks = [
     { title: "Home", Link:"/" },
     { title: "About", Link:"/about" },
@@ -112,7 +135,7 @@ const FooterSection = () => {
                         <ul className="list-unstyled">
                           {quickLinks.map((link, index) => (
                             <li key={index} className="mb-4">
-                              <Link to={link.Link}>
+                              <Link to={link.Link} className="navlink">
                                 <MdKeyboardArrowRight />
                                 {link.title}
                               </Link>

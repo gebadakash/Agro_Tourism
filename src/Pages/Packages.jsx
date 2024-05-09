@@ -1,4 +1,5 @@
 import React, { Suspense } from "react"
+import FoodMenu from "../Components/PackagePageComponents/FoodMenuComponents/FoodMenu";
 const Timeline = React.lazy(()=> import("../Components/PackagePageComponents/Timeline/Timeline"));
 
 
@@ -7,6 +8,7 @@ const Packages = () => {
     <>
       <Suspense>
         <Timeline/>
+        <FoodMenu/>
       </Suspense>
     </>
   )

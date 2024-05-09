@@ -39,7 +39,7 @@ const ChooseUsSection = () => {
       <div className="d-flex bd-highlight">
         {ChooseData.map((choose, index) => (
           <div className="p-2 flex-fill bd-highlight" key={index}>
-            <div className="fbox-content card" style={{ padding: "40px" }} data-aos="zoom-in" data-aos-duration="200">
+            <div className="fbox-content card" style={{ padding: "40px" }} data-aos="zoom-in" data-aos-duration="100">
               <div className="fbox-body">
                 <div className="d-flex iconTitle">
                   {choose.icon}
