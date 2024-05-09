@@ -43,6 +43,15 @@
 }
 
 
+@media (max-width:999px) {
+
+  .GoogleMap{
+
+    width: 300px !important;
+    height: 200px !important;
+  }
+  
+}
 
 
   

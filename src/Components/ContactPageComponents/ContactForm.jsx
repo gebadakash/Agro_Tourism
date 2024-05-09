@@ -84,7 +84,7 @@ const ContactForm = () => {
 
   return (
     <section className="mt-5">
-      <div className="container" data-aos="fade-up" data-aos-duration="500">
+      <div className="container" data-aos="fade-up" data-aos-duration="200">
         <div className="row justify-content-center">
           <div className="col-md-6 text-center mb-5">
             <h2 className="heading-section" style={{ fontFamily: "monospace" }}>

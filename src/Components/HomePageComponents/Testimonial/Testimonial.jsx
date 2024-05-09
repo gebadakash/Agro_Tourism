@@ -39,7 +39,7 @@ const Testimonial = () => {
           <div
             className="col-md-7 text-center heading-section aos-init aos-animate inner mb-5 mt-5"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="200"
           >
             <h2 style={{fontFamily:"monospace"}}>Our Happy Guests</h2>
             <span>----------</span> <FaCanadianMapleLeaf style={{fontSize:"40px",color:"rgb(141, 196, 63)"}}/> <span>----------</span>

@@ -71,7 +71,7 @@ const ActivityPage = () => {
       <div className="container">
         <div className="row">
           {roomData.map((room, index) => (
-            <div key={index} className="col-md-6 col-lg-4 mb-5" data-aos="flip-left" data-aos-duration="500">
+            <div key={index} className="col-md-6 col-lg-4 mb-5" data-aos="flip-left" data-aos-duration="200">
               <div className="hotel-room text-center shadow">
                 <img src={room.images[0]} className="img-fluid" />
                 <div className="hotel-room-body">

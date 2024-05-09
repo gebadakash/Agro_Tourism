@@ -134,6 +134,7 @@ const FooterSection = () => {
                         <h3 className="widget-title mb-0" style={{fontFamily:"monospace"}}>Location</h3>
                         <iframe
                           title="Google Map"
+                          className="GoogleMap"
                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.5257326908854!2d79.18386841084595!3d21.408571080255513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4db387d99039b%3A0x9a238b098f78571e!2sMahuli%20Agro%20Tourism!5e0!3m2!1sen!2sin!4v1714478982554!5m2!1sen!2sin"
                           width="350"
                           height="200"
@@ -175,7 +176,7 @@ const FooterSection = () => {
                 <br />
                 Made by{" "}
                 <a
-                  href="http://atlanticdesigns.co"
+                  href="https://elioratechno.com/"
                   style={{ color: "#43b4f9" }}
                   target="_blank"
                 >

@@ -36,8 +36,8 @@ const BlogEntry = ({ id, title, image, date }) => {
       <div
         className="blog-entry justify-content-end aos-init aos-animate"
         data-aos="fade-up"
-        data-aos-duration="500"
-        data-aos-delay="300"
+        data-aos-duration="200"
+        data-aos-delay="200"
       >
         <NavLink
           to={`/blog/${id}`}
@@ -89,13 +89,13 @@ const BlogSection = () => {
   ];
 
   return (
-    <section className="ftco-section bg-light">
+    <section className="bg-light">
       <div className="container-xl">
         <div className="row justify-content-center pb-4 wrapper">
           <div
             className="col-md-7 text-center heading-section aos-init aos-animate inner mb-5 mt-5"
             data-aos="fade-up"
-            data-aos-duration="500"
+            data-aos-duration="200"
           >
             <h2 style={{ fontFamily: "monospace" }}>Latest Blogs</h2>
             <p>

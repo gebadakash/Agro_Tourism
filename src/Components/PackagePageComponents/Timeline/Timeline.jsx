@@ -113,7 +113,7 @@ const Timeline = () => {
         </div>
         <div className="history__content">
           <div className="row">
-            <div className="col-lg-5 col-md-5" data-aos="fade-right" data-aos-duration="500">
+            <div className="col-lg-5 col-md-5" data-aos="fade-right" data-aos-duration="200">
               {leftData.map((data, index) => (
                 <div key={index} className="history__item left__item">
                   <div className="history__date"></div>
@@ -129,7 +129,7 @@ const Timeline = () => {
                 
               ))}
             </div>
-            <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-2" data-aos="fade-left" data-aos-duration="500">
+            <div className="col-lg-5 offset-lg-2 col-md-5 offset-md-2" data-aos="fade-left" data-aos-duration="200">
               {rightData.map((data, index) => (
                 <div key={index} className="history__item right__first__item">
                   <div className="history__date"></div>

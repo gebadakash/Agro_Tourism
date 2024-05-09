@@ -11,12 +11,12 @@ const AboutSection = () => {
                            <span style={{fontSize:"18px", color:"black"}}>Years Of Experience</span>
                            <i className="fal fa-arrow-up"></i>
         </div>
-          <div className="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
+          <div className="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="200">
                 <div className="f-services  flex-md-column-reverse">
                   <img src={founderImage}></img>
                 </div>
           </div>
-          <div className="col-md-6 heading-section d-flex align-items-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          <div className="col-md-6 heading-section d-flex align-items-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="200">
             <div className="mt-5 mt-md-0">
               <h2 className="mb-4">About Our Farm</h2>
               <p className="mb-2" style={{textAlign:"justify", fontSize:"20px"}}>Mahuli Farm is more than just a place to stay it's a celebration of sustainable living. We believe in nourishing the land that nourishes us. Learn about our composting methods, rainwater harvesting techniques, and our commitment to organic farming practices.</p>

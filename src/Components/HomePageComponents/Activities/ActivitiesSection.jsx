@@ -99,7 +99,7 @@ const ActivitiesSection = () => {
           <div
             className="col-md-7 text-center heading-section aos-init aos-animate inner mb-5 mt-5"
             data-aos="fade-up"
-            data-aos-duration="500"
+            data-aos-duration="200"
           >
             <h2 style={{fontFamily:"monospace"}}>Activities in Mahuli Agro-Tourism</h2>
             <span>----------</span> <FaCanadianMapleLeaf style={{fontSize:"40px",color:"rgb(141, 196, 63)"}}/> <span>----------</span>

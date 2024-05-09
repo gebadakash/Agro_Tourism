@@ -61,9 +61,9 @@ const GallerySection = () => {
     return (
       <div className="container-fluid">
       <div
-            className="col-md-7 text-center heading-section aos-init aos-animate inner mb-5"
+            className="col-md-7 text-center heading-section aos-init aos-animate inner mb-5 mt-5"
             data-aos="fade-up"
-            data-aos-duration="500"
+            data-aos-duration="200"
           >
             <h2 style={{fontFamily:"monospace"}}>Our Collections</h2>
             <span>----------</span> <FaCanadianMapleLeaf style={{fontSize:"40px",color:"rgb(141, 196, 63)"}}/> <span>----------</span>
@@ -85,7 +85,7 @@ const GallerySection = () => {
         <div
             className="text-center heading-section aos-init aos-animate inner mb-5"
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="200"
           >
             <h2 style={{fontFamily:"monospace"}}>Our Collections</h2>
             <span>----------</span> <FaCanadianMapleLeaf style={{fontSize:"40px",color:"rgb(141, 196, 63)"}}/> <span>----------</span>
@@ -105,7 +105,7 @@ const GallerySection = () => {
 
 const GalleryItem = ({ imageSrc, delay }) => {
   return (
-    <div className="col-md aos-init aos-animate imageContainer mb-2" data-aos="fade-up" data-aos-delay={delay} data-aos-duration="1000" style={{height:"220px"}}>
+    <div className="col-md aos-init aos-animate imageContainer mb-2" data-aos="fade-up" data-aos-delay={delay} data-aos-duration="200" style={{height:"220px"}}>
     <span className='gallery-wrap'>
       <img className="gallery-wrap img galleryImage d-flex align-items-center justify-content-center glightbox" src={imageSrc} style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="" />
       <NavLink to="/gallery" className="view-more-btn navlink" style={{textDecoration:"none"}}>View More</NavLink>
