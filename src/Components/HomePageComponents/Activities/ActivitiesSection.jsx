@@ -28,8 +28,8 @@ import { useEffect } from "react";
 const roomData = [
   {
     images: [img1,img2,img3],
-    title: "Maharashtrian Food",
-    details: "Indulge in the rich flavors of Traditional Marathi cuisine, where every dish tells a story of heritage and authenticity.experience the culinary delights of Maharashtra's culinary legacy.",
+    title: "Traditional Marathi Foods",
+    details: "The secret to our flavorful dishes lies in the freshness of our ingredients.  We source vegetables, lentils, and spices directly from our farm, ensuring the highest quality and the truest taste of Maharashtra.",
   },
   {
     images: [img4,img5,img6],

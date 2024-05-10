@@ -9,7 +9,6 @@ import { useEffect } from "react";
 
 const BlogEntry = ({ id, title, image, date }) => {
 
-
   useEffect(() => {
 
     const handleScrollToTop = () => {
@@ -21,7 +20,6 @@ const BlogEntry = ({ id, title, image, date }) => {
     navLinks.forEach(link => {
       link.addEventListener('click', handleScrollToTop);
     });
-
 
     return () => {
       navLinks.forEach(link => {
@@ -37,12 +35,11 @@ const BlogEntry = ({ id, title, image, date }) => {
         className="blog-entry justify-content-end aos-init aos-animate"
         data-aos="fade-up"
         data-aos-duration="200"
-        data-aos-delay="200"
       >
         <NavLink
           to={`/blog/${id}`}
           className="block-20 img d-flex align-items-end navlink"
-          style={{ backgroundImage: `url(${image})` }}
+          style={{ backgroundImage: `url(${image})`, transition: "all 0.3s ease-out 0s"}}
         ></NavLink>
         <div className="text shadow mb-5">
           <p className="meta">

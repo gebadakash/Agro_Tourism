@@ -38,7 +38,7 @@ const ChooseUsSection = () => {
     <div className="chooseus choosePad set-bg-choose mt-5 mb-5">
       <div className="d-flex bd-highlight">
         {ChooseData.map((choose, index) => (
-          <div className="p-2 flex-fill bd-highlight" key={index}>
+          <div className="p-2 flex-fill bd-highlight whyChooseUsCards" key={index} style={{marginLeft:"60px", marginRight:"60px"}}>
             <div className="fbox-content card" style={{ padding: "40px" }} data-aos="zoom-in" data-aos-duration="100">
               <div className="fbox-body">
                 <div className="d-flex iconTitle">
@@ -55,7 +55,7 @@ const ChooseUsSection = () => {
               <h6 className="mt-2 chooseTitle" style={{fontFamily:"monospace", textAlign:"justify"}}>
                   {choose.subTitle}
               </h6>
-              <p className="description choosePara" style={{ fontSize: "18px" }}>
+              <p className="description choosePara" style={{ fontSize: "18px", textAlign:"justify" }}>
                 {choose.paragraph}
               </p>
               </div>
