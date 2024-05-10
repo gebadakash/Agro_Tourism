@@ -20,7 +20,6 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
-    /* font-weight: 800; */
 }
 
 
@@ -67,10 +66,14 @@
         margin-right: 0 !important;
     }
 
-  }
+}
 
 
+.iconTitle{
 
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
