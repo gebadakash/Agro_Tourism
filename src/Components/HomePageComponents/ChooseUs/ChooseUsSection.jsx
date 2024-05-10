@@ -52,7 +52,7 @@ const ChooseUsSection = () => {
                 </div>
               </div>
               <div>
-              <h6 className="mt-2 chooseTitle" style={{fontFamily:"sans-serif", textAlign:"center"}}>
+              <h6 className="mt-2 chooseTitle" style={{fontFamily:"cursive", textAlign:"center", fontWeight:"400"}}>
                   {choose.subTitle}
               </h6>
               <p className="description choosePara" style={{ fontSize: "18px", textAlign:"justify" }}>
