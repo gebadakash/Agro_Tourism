@@ -43,12 +43,12 @@ const ChooseUsSection = () => {
               <div className="fbox-body">
                 <div className="d-flex iconTitle">
                   {choose.icon}
-                  <h4
+                  <h5
                     style={{ color: "#000000", fontFamily: "monospace" }}
                     className="mx-4 mt-2"
                   >
                     {choose.title}
-                  </h4>
+                  </h5>
                 </div>
               </div>
               <div>
