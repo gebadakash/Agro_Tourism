@@ -50,3 +50,12 @@
     color: rgb(101, 95, 95); 
   }
 
+
+  @media (max-width:999px) {
+
+    .about__text{
+
+        margin-top: 2rem;
+    }
+    
+  }

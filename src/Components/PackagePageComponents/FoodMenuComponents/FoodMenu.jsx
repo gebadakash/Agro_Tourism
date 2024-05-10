@@ -79,7 +79,7 @@ const FoodMenu = () => {
         </div>
         <div className="row grid">
           {firstLineProjects.map((project, index) => (
-            <div key={index} className="col-lg-4 col-md-12">
+            <div key={index} className="col-lg-4 col-md-12 mb-5">
               <div className="project-img mb-70">
                 <div className="inner-img"><img src={project.image} alt="" className="fluid" /></div>
                 <div className="project-img-content">
@@ -89,7 +89,7 @@ const FoodMenu = () => {
             </div>
           ))}
           {filteredProjects.slice(3).map((project, index) => (
-            <div key={index} className="col-lg-4 col-md-12">
+            <div key={index} className="col-lg-4 col-md-12 mb-5">
               <div className="project-img mb-70">
                 <div className="inner-img"><img src={project.image} alt="" className="fluid" /></div>
                 <div className="project-img-content">
@@ -100,7 +100,7 @@ const FoodMenu = () => {
           ))}
         </div>
       </div>
-      <center className="mb-5"> <NavLink to="/contact" className="tp-btn-ab navlink">Enquire Now</NavLink></center>
+      <center className="mb-5 mt-5"> <NavLink to="/contact" className="tp-btn-ab navlink">Enquire Now</NavLink></center>
     </div>
   );
 };

@@ -11,7 +11,6 @@ import img9 from "../../assets/images/Lake.jpg"
 
 
 
-
 const roomData = [
   {
     images: [img1],
