@@ -12,7 +12,7 @@
 }
 
 .about__content .section-title {
-    text-align: left;
+    text-align: center;
 }
 
 .section-title h5 {
@@ -57,5 +57,6 @@
 
         margin-top: 2rem;
     }
+
     
   }

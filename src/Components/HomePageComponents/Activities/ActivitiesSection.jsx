@@ -101,7 +101,7 @@ const ActivitiesSection = () => {
             data-aos="fade-up"
             data-aos-duration="200"
           >
-            <h2 style={{fontFamily:"monospace"}}>Activities in Mahuli Agro-Tourism</h2>
+            <h2 style={{fontFamily:"monospace"}} className="activityHeading">Activities in Mahuli Agro-Tourism</h2>
             <span>----------</span> <FaCanadianMapleLeaf style={{fontSize:"40px",color:"rgb(141, 196, 63)"}}/> <span>----------</span>
           </div>
         </div>

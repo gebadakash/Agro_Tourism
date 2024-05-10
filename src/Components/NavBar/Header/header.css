@@ -141,6 +141,14 @@
     font-size: 12px;
 
   }
+
+  .TopHeader{
+
+    justify-content: start !important;
+    
+  }
+
+
 }
 
 
@@ -154,17 +162,3 @@
 }
 
 
-
-
-
-
-
-
-
-  
-  
-
-
-  
-  
-  

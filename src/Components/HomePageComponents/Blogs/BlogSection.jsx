@@ -105,7 +105,7 @@ const BlogSection = () => {
             <span>----------</span>
           </div>
         </div>
-        <div className="row" style={{ justifyContent: "space-evenly" }}>
+        <div className="row blogCards" style={{ justifyContent: "space-evenly" }}>
           {blogEntries.map((entry, index) => (
             <BlogEntry
               key={index}

@@ -63,3 +63,38 @@
 
 
 
+/* iPad Mini */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  
+    .heading-section{
+
+        margin-bottom: 0px !important;
+    }
+}
+
+/* iPad Air */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  /* Your CSS for iPad Air here */
+}
+
+/* iPad Pro */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  /* Your CSS for iPad Pro here */
+}
+
+/* Surface 7 Pro */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  /* Your CSS for Surface 7 Pro here */
+}

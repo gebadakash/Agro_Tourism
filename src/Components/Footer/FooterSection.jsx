@@ -168,7 +168,7 @@ const FooterSection = () => {
                     </aside>
                   </div>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <div className="col-lg-2 col-md-2 col-sm-12 col-xs-12 serviceSection">
                   <div
                   >
                     <aside

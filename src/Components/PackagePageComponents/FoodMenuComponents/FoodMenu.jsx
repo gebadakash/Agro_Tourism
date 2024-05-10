@@ -82,7 +82,7 @@ const FoodMenu = () => {
             <div key={index} className="col-lg-4 col-md-12 mb-5">
               <div className="project-img mb-70">
                 <div className="inner-img"><img src={project.image} alt="" className="fluid" /></div>
-                <div className="project-img-content">
+                <div className="project-img-content shadow">
                   <h4 className="project-sm-title">{project.title}</h4>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const FoodMenu = () => {
             <div key={index} className="col-lg-4 col-md-12 mb-5">
               <div className="project-img mb-70">
                 <div className="inner-img"><img src={project.image} alt="" className="fluid" /></div>
-                <div className="project-img-content">
+                <div className="project-img-content shadow">
                   <h4 className="project-sm-title">{project.title}</h4>
                 </div>
               </div>

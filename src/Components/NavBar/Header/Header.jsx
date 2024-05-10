@@ -70,7 +70,7 @@ const Header = () => {
             <FaBars className="text-white" />
           </button>
         </div>
-        <div className="collapse navbar-collapse" id="navbarCollapse" style={{justifyContent:"center"}}>
+        <div className="collapse navbar-collapse TopHeader" id="navbarCollapse" style={{justifyContent:"center"}}>
           <div className="navbar-nav py-0">
             {windowWidth > 999 ? (
               <>
