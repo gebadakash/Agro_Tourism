@@ -9,20 +9,20 @@ The website is hosted on Vercel.
 [Agro-Tourism](https://agro-tourism.vercel.app/)
 
 <h2>Table of Contents</h2>
-1.Features<br>
-2.Technologies Used<br>
-3.Installation<br>
-4.Usage<br>
-5.Pages<br>
-6.API Endpoints<br>
-7.License<br>
+1. Features<br>
+2. Technologies Used<br>
+3. Installation<br>
+4. Usage<br>
+5. Pages<br>
+6. API Endpoints<br>
+7. License<br>
 
 <h2>Features</h2>
-1.Responsive Design: Works on all devices (mobile, tablet, desktop).<br>
-2.Modern UI: Utilizes React.js and Bootstrap for a clean and professional interface.<br>
-3.Dynamic Content: Integrates with an API to fetch dynamic content.<br>
-4.Blog Section: Includes a blog section on the Home Page.<br>
-5.Gallery: Showcases images in a responsive gallery.<br>
+1. Responsive Design: Works on all devices (mobile, tablet, desktop).<br>
+2. Modern UI: Utilizes React.js and Bootstrap for a clean and professional interface.<br>
+3. Dynamic Content: Integrates with an API to fetch dynamic content.<br>
+4. Blog Section: Includes a blog section on the Home Page.<br>
+5. Gallery: Showcases images in a responsive gallery.<br>
 
 <h2>Technologies Used</h2>
 
@@ -87,13 +87,13 @@ npm start
 
 <h2>Pages</h2>
 
-1.Home: Overview of the Agro-Tourism services and blog section.
-2.About Us: Information about the organization.
-3.Packages: Details of the tourism packages offered.
-4.Activities: List of activities available for tourists.
-5.Gallery: Photo gallery showcasing various aspects of Agro-Tourism.
-6.Contact: Contact form to reach out to the organization.
-7.Blog: Latest blog posts related to Agro-Tourism.
+1. Home: Overview of the Agro-Tourism services and blog section.<br>
+2. About Us: Information about the organization.<br>
+3. Packages: Details of the tourism packages offered.<br>
+4. Activities: List of activities available for tourists.<br>
+5. Gallery: Photo gallery showcasing various aspects of Agro-Tourism.<br>
+6. Contact: Contact form to reach out to the organization.<br>
+7. Blog: Latest blog posts related to Agro-Tourism.<br>
 
 <h2>Screen Shots</h2>
 
