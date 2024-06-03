@@ -9,20 +9,20 @@ The website is hosted on Vercel.
 [Agro-Tourism](https://agro-tourism.vercel.app/)
 
 <h2>Table of Contents</h2>
-1.Features
-2.Technologies Used
-3.Installation
-4.Usage
-5.Pages
-6.API Endpoints
-7.License
+1.Features<br>
+2.Technologies Used<br>
+3.Installation<br>
+4.Usage<br>
+5.Pages<br>
+6.API Endpoints<br>
+7.License<br>
 
 <h2>Features</h2>
-1.Responsive Design: Works on all devices (mobile, tablet, desktop).
-2.Modern UI: Utilizes React.js and Bootstrap for a clean and professional interface.
-3.Dynamic Content: Integrates with an API to fetch dynamic content.
-4.Blog Section: Includes a blog section on the Home Page.
-5.Gallery: Showcases images in a responsive gallery.
+1.Responsive Design: Works on all devices (mobile, tablet, desktop).<br>
+2.Modern UI: Utilizes React.js and Bootstrap for a clean and professional interface.<br>
+3.Dynamic Content: Integrates with an API to fetch dynamic content.<br>
+4.Blog Section: Includes a blog section on the Home Page.<br>
+5.Gallery: Showcases images in a responsive gallery.<br>
 
 <h2>Technologies Used</h2>
 
