@@ -26,11 +26,12 @@ The website is hosted on Vercel.
 
 <h2>Technologies Used</h2>
 
-<li><ul>Front-End:</ul></li>
-      <li><ul>React.js</ul></li>
+<li>
+   <ul>Front-End:</ul>
+      <ul>React.js</ul>
       <ul>Bootstrap</ul>
       <ul>React Icons</ul>
-
+</li>
 
 <li>
   <ul>Back-End:</ul>
