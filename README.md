@@ -58,7 +58,7 @@ The website is hosted on Vercel.
 
 1.Clone the repository:
 
-git clone https://github.com/your-username/agro-tourism.git
+git clone [https://github.com/your-username/agro-tourism.git](https://github.com/gebadakash/Agro_Tourism/tree/main)
 cd agro-tourism
 
 2.Install dependencies:
